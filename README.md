@@ -1,2 +1,2 @@
 # AutonomousVehiclePaper
-无人驾驶相关论文速递中转
+无人驾驶相关论文速递中转。论文速递信息请见Issues

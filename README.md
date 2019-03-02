@@ -64,7 +64,7 @@ of damage in roads is an essential problem for multiple applications like mainte
 SOTA，IROS 2018,IMU和（单目）摄像头融合的校正方法，用来校准IMU和相机之间的时间偏移。  
 作者：[Tong Qin](http://www.qintong.xyz/), [Shaojie Shen(沈劭劼)](http://uav.ust.hk/group/)   
 机构： [香港科技大学航空机器人](http://uav.ust.hk/)  
-代码：[HKUST-Aerial-Robotics/VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
+代码：[HKUST-Aerial-Robotics/VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)  
 摘要：Accurate state estimation is a fundamental module for various intelligent applications, such as robot navigation, 
 autonomous driving, virtual and augmented reality. Visual and inertial fusion is a popular technology for 6-DOF state 
 estimation in recent years. Time instants at which different sensors' measurements are recorded are of crucial importance 

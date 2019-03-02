@@ -2,8 +2,3 @@
 
 
 
-|Expert|Field|Research institute|Basic Information|Number of Citations|Extra|
-|:--|:--|:--|:--|:--|:--|
-|Randal Beard|Unmanned air vehicles、cooperative control、autonomous vehicles、nonlinear and optimal control|Brigham Young University|Professor of Electrical and Computer Engineering,|27509||
-
-

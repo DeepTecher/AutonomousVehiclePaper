@@ -29,7 +29,7 @@ paper we consider the problem of encoding a point cloud into a format appropriat
 * [Road Damage Detection And Classification In Smartphone Captured Images Using Mask R-CNN](https://arxiv.org/abs/1811.04535),
 IEEE International Conference On Big Data Cup 2018(2018年IEEE国际大数据杯会议的道路损伤检测和分类挑战)    
 作者：Janpreet Singh, Shashank Shekhar    
-代码：2018-11-12  
+时间：2018-11-12  
 代码：[sshkhr/BigDataCup18_Submission](https://github.com/sshkhr/BigDataCup18_Submission)  
 摘要: This paper summarizes the design, experiments and results of our solution to the Road Damage Detection and Classification 
 Challenge held as part of the 2018 IEEE International Conference On Big Data Cup. Automatic detection and classification 
@@ -40,6 +40,21 @@ of damage in roads is an essential problem for multiple applications like mainte
  F1 score of 0.528 at an IoU of 50% on the task of detection and classification of different types of damages in real-world 
  road images acquired using a smartphone camera and our average inference time for each image is 0.105 seconds on an NVIDIA 
  GeForce 1080Ti graphic card. The code and saved models for our approach can be found here : this https URL Submission
+ 
+ * [SqueezeDet: Unified, Small, Low Power Fully Convolutional Neural Networks for Real-Time Object Detection for Autonomous Driving](https://arxiv.org/abs/1612.01051),
+ :trophy: SOTA for KITTI(2016)  
+ 作者：Bichen Wu, Alvin Wan, Forrest Iandola, Peter H. Jin, Kurt Keutzer  
+ 日期：2017-11-29（2016-12-04 v1版本）  
+ 代码: TensorFLow:[BichenWuUCB/squeezeDet](https://github.com/BichenWuUCB/squeezeDet) :star:631  
+ 摘要:Object detection is a crucial task for autonomous driving. In addition to requiring high accuracy to ensure safety, 
+ object detection for autonomous driving also requires real-time inference speed to guarantee prompt vehicle control, 
+ as well as small model size and energy efficiency to enable embedded system deployment. In this work, we propose SqueezeDet, 
+ a fully convolutional neural network for object detection that aims to simultaneously satisfy all of the above constraints. 
+ In our network we use convolutional layers not only to extract feature maps, but also as the output layer to compute bounding 
+ boxes and class probabilities. The detection pipeline of our model only contains a single forward pass of a neural network, 
+ thus it is extremely fast. Our model is fully-convolutional, which leads to small model size and better energy efficiency. 
+ Finally, our experiments show that our model is very accurate, achieving state-of-the-art accuracy on the KITTI benchmark.
+ 
 #### 语义分割|Semantic Segmentation
 * [A Curriculum Domain Adaptation Approach to the Semantic Segmentation of Urban Scenes](https://arxiv.org/abs/1812.09953),
  :trophy: SOTA for Image-to-Image Translation on SYNTHIA-to-Cityscapes.  

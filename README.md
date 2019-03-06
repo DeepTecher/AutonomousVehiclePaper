@@ -14,7 +14,7 @@
 :trophy: SOTA for Birds Eye View Object Detection on KITTI Cyclists Moderate  
 作者：Alex H. Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, Oscar Beijbom  
 日期： 2018-12-14   
-代码：[traveller59/second.pytorch](https://github.com/traveller59/second.pytorch)   
+代码：[traveller59/second.pytorch](https://github.com/traveller59/second.pytorch):star: 228    
 摘要：Object detection in point clouds is an important aspect of many robotics applications such as autonomous driving. In this 
 paper we consider the problem of encoding a point cloud into a format appropriate for a downstream detection pipeline.
  Recent literature suggests two types of encoders; fixed encoders tend to be fast but sacrifice accuracy, while encoders 
@@ -61,7 +61,7 @@ of damage in roads is an essential problem for multiple applications like mainte
  :trophy: SOTA for Image-to-Image Translation on SYNTHIA-to-Cityscapes.  
  作者:Yang Zhang, Philip David, Hassan Foroosh, Boqing Gong  
  日期：2019-01-10（2018-12-24 v1版本）  
- 代码：[YangZhang4065/AdaptationSeg](https://github.com/YangZhang4065/AdaptationSeg)  
+ 代码：[YangZhang4065/AdaptationSeg](https://github.com/YangZhang4065/AdaptationSeg):star:68    
  摘要:During the last half decade, convolutional neural networks (CNNs) have triumphed over semantic segmentation, which is 
  one of the core tasks in many applications such as autonomous driving and augmented reality. However, to train CNNs 
  requires a considerable amount of data, which is difficult to collect and laborious to annotate. Recent advances in 
@@ -80,7 +80,7 @@ of damage in roads is an essential problem for multiple applications like mainte
 SOTA，IROS 2018,IMU和（单目）摄像头融合的校正方法，用来校准IMU和相机之间的时间偏移。  
 作者：[Tong Qin](http://www.qintong.xyz/), [Shaojie Shen(沈劭劼)](http://uav.ust.hk/group/)   
 机构： [香港科技大学航空机器人](http://uav.ust.hk/)  
-代码：[HKUST-Aerial-Robotics/VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)  
+代码：[HKUST-Aerial-Robotics/VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono):star:1345    
 摘要：Accurate state estimation is a fundamental module for various intelligent applications, such as robot navigation, 
 autonomous driving, virtual and augmented reality. Visual and inertial fusion is a popular technology for 6-DOF state 
 estimation in recent years. Time instants at which different sensors' measurements are recorded are of crucial importance 
@@ -97,6 +97,23 @@ visual-inertial systems. The source code of temporal calibration is integrated i
   
 
 ## 决策系统|Decision Making
+* [Virtual to Real Reinforcement Learning for Autonomous Driving](https://arxiv.org/abs/1704.03952),在虚拟环境通过强化学习来训练无人驾驶   
+作者：Xinlei Pan, Yurong You, Ziyan Wang, Cewu Lu  
+机构：Berkley、清华大学、上海交通大学  
+日期：2017-09-26 （2017-04-13 v1）  
+代码：[xinleipan/VirtualtoReal-RL](https://github.com/xinleipan/VirtualtoReal-RL) :star: 20        
+摘要：Reinforcement learning is considered as a promising direction for driving policy learning. However, training autonomous driving vehicle with reinforcement learning in real environment involves non-affordable trial-and-error. It is more desirable to first train in a virtual environment and then transfer to the real environment. In this paper, we propose a novel realistic translation network to make model trained in virtual environment be workable in real world. The proposed network can convert non-realistic virtual image input into a realistic one with similar scene structure. Given realistic frames as input, driving policy trained by reinforcement learning can nicely adapt to real world driving. Experiments show that our proposed virtual to real (VR) reinforcement learning (RL) works pretty well. To our knowledge, this is the first successful case of driving policy trained by reinforcement learning that can adapt to real world driving data.  
+
+* [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)  
+作者：Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski 等  
+机构：英伟达  
+日期：2016-09-25  
+代码：[marsauto/europilot](https://github.com/marsauto/europilot):star:1237、[SullyChen/Autopilot-TensorFlow](https://github.com/SullyChen/Autopilot-TensorFlow):star: 956 非官方  
+摘要：We trained a convolutional neural network (CNN) to map raw pixels from a single front-facing camera directly to steering commands. This end-to-end approach proved surprisingly powerful. With minimum training data from humans the system learns to drive in traffic on local roads with or without lane markings and on highways. It also operates in areas with unclear visual guidance such as in parking lots and on unpaved roads. 
+The system automatically learns internal representations of the necessary processing steps such as detecting useful road features with only the human steering angle as the training signal. We never explicitly trained it to detect, for example, the outline of roads. 
+Compared to explicit decomposition of the problem, such as lane marking detection, path planning, and control, our end-to-end system optimizes all processing steps simultaneously. We argue that this will eventually lead to better performance and smaller systems. Better performance will result because the internal components self-optimize to maximize overall system performance, instead of optimizing human-selected intermediate criteria, e.g., lane detection. Such criteria understandably are selected for ease of human interpretation which doesn't automatically guarantee maximum system performance. Smaller networks are possible because the system learns to solve the problem with the minimal number of processing steps. 
+We used an NVIDIA DevBox and Torch 7 for training and an NVIDIA DRIVE(TM) PX self-driving car computer also running Torch 7 for determining where to drive. The system operates at 30 frames per second (FPS).
+
 ### 运动规划|Motion Planer
 * [ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst](https://arxiv.org/abs/1812.03079),
 :+1: :+1: :+1: :+1: :+1: Waymo出品，通过模仿学习对无人车进行运动规划，全文中文翻译:[知乎|每周一篇 & 无人驾驶](https://zhuanlan.zhihu.com/p/57275593)  

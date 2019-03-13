@@ -81,9 +81,9 @@
 最新动态；2017年获得IROS最佳学生论文奖的合着者、2017年IROS认知机器人最佳论文奖入围者、2017年ICRA最佳多机器人系统论文奖入围者  
 PS：看了主页，感觉更多是做无人机相关的search。  
 
-* Mohan Trivedi[个人主页](http://cvrr.ucsd.edu/)、[谷歌学术](https://scholar.google.com/citations?hl=en&user=LkONrRAAAAAJ&view_op=list_works&sortby=pubdate)、  
-基本信息：加州大学圣地亚哥分校电气与计算机工程教授、CVRR和LISA实验室主任
-研究方向；智能汽车、自动驾驶、机器视觉、驾驶辅助系统、人机交互
-最新动态：2018年谷歌学术统计16篇论文。用于许多尖端应用，包括“智能汽车”（远程信息处理），智能交通系统，“智能房间”（智能环境），生物识别（面部识别）和基于传感器的智能系统。
+* Mohan Trivedi[个人主页](http://cvrr.ucsd.edu/)、[谷歌学术](https://scholar.google.com/citations?hl=en&user=LkONrRAAAAAJ&view_op=list_works&sortby=pubdate)、    
+基本信息：加州大学圣地亚哥分校电气与计算机工程教授、CVRR和LISA实验室主任  
+研究方向；智能汽车、自动驾驶、机器视觉、驾驶辅助系统、人机交互  
+最新动态：2018年谷歌学术统计16篇论文。用于许多尖端应用，包括“智能汽车”（远程信息处理），智能交通系统，“智能房间”（智能环境），生物识别（面部识别）和基于传感器的智能系统。  
 
 

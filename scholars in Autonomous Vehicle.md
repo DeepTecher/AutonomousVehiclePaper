@@ -63,5 +63,27 @@
 * Luc Van Gool [个人主页](https://www.vision.ee.ethz.ch/en/members/get_member.cgi?id=1)	、
 [谷歌学术](https://scholar.google.com/citations?hl=en&user=TwMib_QAAAAJ&view_op=list_works&sortby=pubdate)  
 基本信息：瑞士联邦理工学院 计算机视觉组教授  	
-研究方向：识别与跟踪`计算机视觉 `、`无人驾驶`、`3D`                             	
+研究方向：识别与跟踪`计算机视觉 `、`无人驾驶`、`3D`    
+
+
+以下学者通过`Google Scholar`搜索 `Autonmous Vehicles|Drving` 、`Self Driving`、`Intelligent Vehicles`等关键词汇集。
+为保证学者仍在相关领域活跃，故会选取的都为2018年中至少有一篇是有关无人驾驶相关paper发表。 
+
+* Andrew Blake [个人主页](http://www.cantab.net/users/ablake/)、[谷歌学术]、
+[arXiv]()      
+基本信息：    
+研究方向：`计算机视觉`、`机器视觉`、`人工智能`、`机器人`、`无人驾驶`    
+最新动态：谷歌学术总引用数50531，最新相关的paper：`Efficient Computation of Collision Probabilities for Safe Motion Planning`  
+
+* Jonathan P. How [个人主页](http://www.mit.edu/people/jhow/)、[谷歌学术](https://scholar.google.com/citations?user=gX7rSCcAAAAJ&hl=en)、  
+基本信息：MIT航空航天控制系教授、IEEE Fellow、AIAA Fellow  
+研究方向：控制系统 multi-agent、飞行器、传感器融合、自动驾驶  
+最新动态；2017年获得IROS最佳学生论文奖的合着者、2017年IROS认知机器人最佳论文奖入围者、2017年ICRA最佳多机器人系统论文奖入围者  
+PS：看了主页，感觉更多是做无人机相关的search。  
+
+* Mohan Trivedi[个人主页](http://cvrr.ucsd.edu/)、[谷歌学术](https://scholar.google.com/citations?hl=en&user=LkONrRAAAAAJ&view_op=list_works&sortby=pubdate)、  
+基本信息：加州大学圣地亚哥分校电气与计算机工程教授、CVRR和LISA实验室主任
+研究方向；智能汽车、自动驾驶、机器视觉、驾驶辅助系统、人机交互
+最新动态：2018年谷歌学术统计16篇论文。用于许多尖端应用，包括“智能汽车”（远程信息处理），智能交通系统，“智能房间”（智能环境），生物识别（面部识别）和基于传感器的智能系统。
+
 

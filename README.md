@@ -1,7 +1,9 @@
 # AutonomousVehiclePaper
-无人驾驶相关论文速递。论文速递信息见[Issues](https://github.com/DeepTecher/AutonomousVehiclePaper/issues)  
+
+无人驾驶相关论文速递。论文速递信息见[Issues](https://github.com/DeepTecher/AutonomousVehiclePaper/issues),可在issue下进行讨论、交流 、学习:smile: :smile: :smile:  
 无人驾驶相关学者信息 见 [scholars in Autonomous Vehicle](scholars%20in%20Autonomous%20Vehicle.md)    
 CVPR2019 无人驾驶相关论文 见[CVPR2019](CVPR2019.md) :blush: :blush: :blush: 
+
 
 以下论文将大致按照下图无人驾驶系统系统架构来整理。
 > 注：以下统计的时间为在Arxiv提交的时间 

@@ -105,7 +105,14 @@ visual-inertial systems. The source code of temporal calibration is integrated i
 机构：Berkley、清华大学、上海交通大学  
 日期：2017-09-26 （2017-04-13 v1）  
 代码：[xinleipan/VirtualtoReal-RL](https://github.com/xinleipan/VirtualtoReal-RL) :star: 20        
-摘要：Reinforcement learning is considered as a promising direction for driving policy learning. However, training autonomous driving vehicle with reinforcement learning in real environment involves non-affordable trial-and-error. It is more desirable to first train in a virtual environment and then transfer to the real environment. In this paper, we propose a novel realistic translation network to make model trained in virtual environment be workable in real world. The proposed network can convert non-realistic virtual image input into a realistic one with similar scene structure. Given realistic frames as input, driving policy trained by reinforcement learning can nicely adapt to real world driving. Experiments show that our proposed virtual to real (VR) reinforcement learning (RL) works pretty well. To our knowledge, this is the first successful case of driving policy trained by reinforcement learning that can adapt to real world driving data.  
+摘要：Reinforcement learning is considered as a promising direction for driving policy learning. However, training autonomous
+ driving vehicle with reinforcement learning in real environment involves non-affordable trial-and-error. It is more desirable 
+ to first train in a virtual environment and then transfer to the real environment. In this paper, we propose a novel realistic 
+ translation network to make model trained in virtual environment be workable in real world. The proposed network can convert 
+ non-realistic virtual image input into a realistic one with similar scene structure. Given realistic frames as input, 
+ driving policy trained by reinforcement learning can nicely adapt to real world driving. Experiments show that our proposed 
+ virtual to real (VR) reinforcement learning (RL) works pretty well. To our knowledge, this is the first successful case of
+  driving policy trained by reinforcement learning that can adapt to real world driving data.  
 
 * [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)  
 作者：Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski 等  

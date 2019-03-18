@@ -14,31 +14,31 @@
 最新动态：参加Lex Fridman课程交流、讲解了waymo的无人驾驶技术。相关讲解见[知乎专栏|智车科技](https://zhuanlan.zhihu.com/p/57794910)  
 
 * Sacha Arnoud	[LinkedIn](https://www.linkedin.com/in/sacha-arnoud-87184/)、
-[arXiv](https://arxiv.org/search/?query=Sacha+Arnoud&searchtype=author&abstracts=show&order=-announced_date_first&size=50)  
-基本信息：Waymo工程总监  	
-研究方向：系统架构	`系统架构`、`可视化`、`深度学习`  	
-最新动态：参加了Lex Fridman的课程，讲解无人驾驶技术  
+[arXiv](https://arxiv.org/search/?query=Sacha+Arnoud&searchtype=author&abstracts=show&order=-announced_date_first&size=50)    
+基本信息：Waymo工程总监     	
+研究方向：系统架构	`系统架构`、`可视化`、`深度学习`    	
+最新动态：参加了Lex Fridman的课程，讲解无人驾驶技术    
 
 
 * Oliver Cameron [LinkedIn](https://www.linkedin.com/in/olivercameron/ )、
-[GitHub](https://github.com/olivercameron)、[arXiv](https://arxiv.org/search/?query=Oliver+Cameron+&searchtype=author&source=header)  
-基本信息：Voyage公司的CEO、Udacity前副主席  	
-研究方向：无人驾驶	`无人驾驶`、`机器学习`		
-最新动态：youtube参加了Lex Fridman的课程，讲解无人驾驶技术  
+[GitHub](https://github.com/olivercameron)、[arXiv](https://arxiv.org/search/?query=Oliver+Cameron+&searchtype=author&source=header)    
+基本信息：Voyage公司的CEO、Udacity前副主席    	
+研究方向：无人驾驶	`无人驾驶`、`机器学习`  		
+最新动态：youtube参加了Lex Fridman的课程，讲解无人驾驶技术    
 
 * Karl Iagnemma	[LinkedIn](https://www.linkedin.com/in/karl-iagnemma-b52186102/)、
 [谷歌学术](https://scholar.google.com/citations?user=3VyGrdwAAAAJ&hl=en)、
-[arXiv](https://arxiv.org/search/?query=Karl+Iagnemma&searchtype=author&abstracts=show&order=-announced_date_first&size=50)  
-基本信息：nuTonomy主席 (an Aptiv Company)、MIT机器人移动组的前director  	
-研究方向：无人驾驶	`深度学习` 、 `无人驾驶 `、`机器人`  	                     	
-最新动态：youtube参加了Lex Fridman的课程，讲解无人驾驶技术  
+[arXiv](https://arxiv.org/search/?query=Karl+Iagnemma&searchtype=author&abstracts=show&order=-announced_date_first&size=50)    
+基本信息：nuTonomy主席 (an Aptiv Company)、MIT机器人移动组的前director    	
+研究方向：无人驾驶	`深度学习` 、 `无人驾驶 `、`机器人`    	                     	
+最新动态：youtube参加了Lex Fridman的课程，讲解无人驾驶技术     
 
 * Emilio Frazzoli [个人主页](https://ares.lids.mit.edu/)、
 [谷歌学术](https://scholar.google.com/citations?user=8JGG3KcAAAAJ&hl=en)、
-[arXiv](https://arxiv.org/search/?query=emilio+frazzoli&searchtype=author&source=header+G33)    	
-基本信息：nuTonomy的技术总监、 MIT信息与决策系统实验室和运筹学研究中心的航空航天教授。  	
-研究方向：决策、规划和控制	`无人驾驶`、 `移动机器人`、`运输系统`  	       
-最新动态：参加了Lex Fridman的课程，讲解无人驾驶技术  
+[arXiv](https://arxiv.org/search/?query=emilio+frazzoli&searchtype=author&source=header+G33)      	
+基本信息：nuTonomy的技术总监、 MIT信息与决策系统实验室和运筹学研究中心的航空航天教授。    	
+研究方向：决策、规划和控制	`无人驾驶`、 `移动机器人`、`运输系统`    	       
+最新动态：参加了Lex Fridman的课程，讲解无人驾驶技术    
 
 * Sterling Anderson	[LinkedIn](https://www.linkedin.com/in/sterlinganderson/)、
 [谷歌学术](https://scholar.google.com/citations?hl=en&user=T1Hrj8EAAAAJ&view_op=list_works&sortby=pubdate)  

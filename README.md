@@ -5,17 +5,31 @@
 CVPR2019 无人驾驶相关论文 见[CVPR2019](CVPR2019.md) :blush: :blush: :blush: 
 
 
-以下论文将大致按照下图无人驾驶系统系统架构来整理。
+以下论文主要收录相关方向SOTA代码的论文，框架大致按照下图无人驾驶系统系统架构来整理,其中相同类别论文按照时间排序。  
 > 注：以下统计的时间为在Arxiv提交的时间 
 
 ![img](imgs/ARCHITECTURE%20OF%20SELF-DRIVING%20CARS%20.svg)
 
 ## 感知系统|Precision
 ### 其他|Other
-#### 物体检测|Object Detection
+#### 物体检测|Object Detection  
+* [SimpleDet: A Simple and Versatile Distributed Framework for Object Detection and Instance Recognition](https://arxiv.org/abs/1903.05831)
+:trophy: :+1: SOTA on consumer grade hardware at large scale       
+作者： Yuntao Chen, Chenxia Han, Yanghao Li, Zehao Huang, Yi Jiang, Naiyan Wang, Zhaoxiang Zhang     
+机构：图森      
+日期：2019-03-14   
+代码：[tusimple/simpledet](https://github.com/tusimple/simpledet) :star: 1340  
+摘要:Object detection and instance recognition play a central role in many AI applications like autonomous driving, 
+video surveillance and medical image analysis. However, training object detection models on large scale datasets remains 
+computationally expensive and time consuming. This paper presents an efficient and open source object detection framework 
+called SimpleDet which enables the training of state-of-the-art detection models on consumer grade hardware at large scale.
+ SimpleDet supports up-to-date detection models with best practice. SimpleDet also supports distributed training with near 
+ linear scaling out of box. Codes, examples and documents of SimpleDet can be found at [this https URL](https://github.com/tusimple/simpledet).     
+  
 * [PointPillars: Fast Encoders for Object Detection from Point Clouds](https://arxiv.org/abs/1812.05784),
 :trophy: SOTA for Birds Eye View Object Detection on KITTI Cyclists Moderate  
 作者：Alex H. Lang, Sourabh Vora, Holger Caesar, Lubing Zhou, Jiong Yang, Oscar Beijbom  
+机构：nuTonomy（安波福下的公司）      
 日期： 2018-12-14   
 代码：[traveller59/second.pytorch](https://github.com/traveller59/second.pytorch):star: 228    
 摘要：Object detection in point clouds is an important aspect of many robotics applications such as autonomous driving. In this 
@@ -43,11 +57,27 @@ of damage in roads is an essential problem for multiple applications like mainte
  segmentation of natural images, can be used to perform this task in a fast manner with effective results. We achieve a mean 
  F1 score of 0.528 at an IoU of 50% on the task of detection and classification of different types of damages in real-world 
  road images acquired using a smartphone camera and our average inference time for each image is 0.105 seconds on an NVIDIA 
- GeForce 1080Ti graphic card. The code and saved models for our approach can be found here : this https URL Submission
- 
+ GeForce 1080Ti graphic card. The code and saved models for our approach can be found here : this [https URL](https://github.com/sshkhr/BigDataCup18_Submission) Submission
+* [Joint 3D Proposal Generation and Object Detection from View Aggregation](https://arxiv.org/abs/1712.02294) 
+:+1: 2nd best model for 3D Object Detection on KITTI Cars Hard   
+作者：Jason Ku, Melissa Mozifian, Jungwook Lee, Ali Harakeh, Steven Waslander  
+机构：滑铁卢大学工程学院机械与机电工程系   
+日期：2018-06-12 (2017-12-06 v1)     
+代码：[kujason/avod](https://github.com/kujason/avod) :star: 429   
+摘要：We present AVOD, an Aggregate View Object Detection network for autonomous driving scenarios. The proposed neural
+ network architecture uses LIDAR point clouds and RGB images to generate features that are shared by two subnetworks:
+a region proposal network (RPN) and a second stage detector network. The proposed RPN uses a novel architecture capable
+of performing multimodal feature fusion on high resolution feature maps to generate reliable 3D object proposals for
+multiple object classes in road scenes. Using these proposals, the second stage detection network performs accurate
+oriented 3D bounding box regression and category classification to predict the extents, orientation, and classification
+of objects in 3D space. Our proposed architecture is shown to produce state of the art results on the KITTI 3D object
+detection benchmark while running in real time with a low memory footprint, making it a suitable candidate for 
+deployment on autonomous vehicles. Code is at: this https URL
+
  * [SqueezeDet: Unified, Small, Low Power Fully Convolutional Neural Networks for Real-Time Object Detection for Autonomous Driving](https://arxiv.org/abs/1612.01051),
  :trophy: SOTA for KITTI(2016)  
  作者：Bichen Wu, Alvin Wan, Forrest Iandola, Peter H. Jin, Kurt Keutzer  
+ 机构：伯克利、[DeepScale](http://deepscale.ai/)（专注于自动驾驶感知技术）  
  日期：2017-11-29（2016-12-04 v1版本）  
  代码: TensorFLow:[BichenWuUCB/squeezeDet](https://github.com/BichenWuUCB/squeezeDet) :star:631  
  摘要:Object detection is a crucial task for autonomous driving. In addition to requiring high accuracy to ensure safety, 
@@ -77,6 +107,54 @@ of damage in roads is an essential problem for multiple applications like mainte
   of buildings, streets, cars, etc.). We then train a segmentation network, while regularizing its predictions in the 
   target domain to follow those inferred properties. In experiments, our method outperforms the baselines on two datasets 
   and two backbone networks. We also report extensive ablation studies about our approach.  
+  
+* [RTSeg: Real-time Semantic Segmentation Comparative Study](https://arxiv.org/abs/1803.02758)
+Benchmarking Framework（Cityscapes dataset for urban scenes）      
+作者：Mennatullah Siam, Mostafa Gamal, Moemen Abdel-Razek, Senthil Yogamani, Martin Jagersand  
+机构：阿尔伯塔大学、开罗大学    
+日期：2018-06-10 （2018-03-07 v1）  
+代码：[MSiam/TFSegmentation](https://github.com/MSiam/TFSegmentation) :star: 437  
+摘要：Semantic segmentation benefits robotics related applications especially autonomous driving. Most of the research 
+on semantic segmentation is only on increasing the accuracy of segmentation models with little attention to computationally
+efficient solutions. The few work conducted in this direction does not provide principled methods to evaluate the different
+design choices for segmentation. In this paper, we address this gap by presenting a real-time semantic segmentation 
+benchmarking framework with a decoupled design for feature extraction and decoding methods. The framework is comprised 
+of different network architectures for feature extraction such as VGG16, Resnet18, MobileNet, and ShuffleNet. It is also 
+comprised of multiple meta-architectures for segmentation that define the decoding methodology. These include SkipNet, UNet, 
+and Dilation Frontend. Experimental results are presented on the Cityscapes dataset for urban scenes. The modular design 
+allows novel architectures to emerge, that lead to 143x GFLOPs reduction in comparison to SegNet. This benchmarking framework 
+is publicly available at "[this https URL](https://github.com/MSiam/TFSegmentation) ".  
+
+* [MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving](https://arxiv.org/abs/1612.07695)  
+:trophy: SOTA for KITTI(Road Segmentation)   
+作者: Marvin Teichmann, Michael Weber, Marius Zoellner, Roberto Cipolla, Raquel Urtasun    
+机构：多伦多大学计算机科学、剑桥大学工程系、[FZI研究中心](https://www.fzi.de/en/about-us/)、Uber ATG    
+日期：2018-05-08 （2016-12-22）   
+代码：[MarvinTeichmann/MultiNet](https://github.com/MarvinTeichmann/MultiNet) :star: 367     
+摘要：While most approaches to semantic reasoning have focused on improving performance, in this paper we argue that 
+computational times are very important in order to enable real time applications such as autonomous driving. Towards this goal,
+ we present an approach to joint classification, detection and semantic segmentation via a unified architecture where 
+ the encoder is shared amongst the three tasks. Our approach is very simple, can be trained end-toend and performs 
+ extremely well in the challenging KITTI dataset, outperforming the state-of-the-art in the road segmentation task. 
+ Our approach is also very efficient, allowing us to perform inference at more then 23 frames per second. Training scripts 
+ and trained weights to reproduce our results can be found here: [MarvinTeichmann/MultiNet](https://github.com/MarvinTeichmann/MultiNet)    
+ 
+* [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105)
+ :trophy: :+1: SOTA in (Semantic Segmentation & Real-Time Semantic Segmentation)，[more detail](https://paperswithcode.com/paper/pyramid-scene-parsing-network) 、
+ CVPR 2017     
+ 作者：Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, Jiaya Jia    
+ 机构：香港中文大学、商汤    
+ 日期：2017-04-27   
+ 代码：[tensorflow/models](https://github.com/tensorflow/models/tree/master/research/deeplab)、[hszhao/PSPNet](https://github.com/hszhao/PSPNet) :star: 1004  
+ 摘要：Scene parsing is challenging for unrestricted open vocabulary and diverse scenes. In this paper, we exploit the 
+ capability of global context information by different-region-based context aggregation through our pyramid pooling module 
+ together with the proposed pyramid scene parsing network (PSPNet). Our global prior representation is effective to produce 
+ good quality results on the scene parsing task, while PSPNet provides a superior framework for pixel-level prediction tasks. 
+ The proposed approach achieves state-of-the-art performance on various datasets. It came first in ImageNet scene parsing 
+ challenge 2016, PASCAL VOC 2012 benchmark and Cityscapes benchmark. A single PSPNet yields new record of mIoU accuracy 85.4% 
+ on PASCAL VOC 2012 and accuracy 80.2% on Cityscapes. 
+
+
 
 #### 传感器融合|Sensor Fusion  
 * [Online Temporal Calibration for Monocular Visual-Inertial Systems](https://arxiv.org/abs/1808.00692),

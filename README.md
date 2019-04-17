@@ -1,8 +1,8 @@
 # AutonomousVehiclePaper
 
-无人驾驶相关论文速递。论文速递信息见[Issues](https://github.com/DeepTecher/AutonomousVehiclePaper/issues),可在issue下进行讨论、交流 、学习:smile: :smile: :smile:  
-无人驾驶相关学者信息 见 [scholars in Autonomous Vehicle](scholars%20in%20Autonomous%20Vehicle.md)    
-CVPR2019 无人驾驶相关论文 见[CVPR2019](CVPR2019.md) :blush: :blush: :blush: 
+* `无人驾驶相关论文速递`。论文速递信息见[Issues](https://github.com/DeepTecher/AutonomousVehiclePaper/issues),可在issue下进行讨论、交流 、学习:smile: :smile: :smile:  
+* `无人驾驶相关学者信息` 见 [scholars in Autonomous Vehicle](scholars%20in%20Autonomous%20Vehicle.md)    
+* `CVPR2019 无人驾驶相关论文` 见[CVPR2019](CVPR2019.md) :blush: :blush: :blush: 
 
 
 以下论文主要收录相关方向SOTA代码的论文，框架大致按照下图无人驾驶系统系统架构来整理,其中相同类别论文按照时间排序。  

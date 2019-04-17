@@ -4,8 +4,23 @@
 * `无人驾驶相关学者信息` 见 [scholars in Autonomous Vehicle](scholars%20in%20Autonomous%20Vehicle.md)    
 * `CVPR2019 无人驾驶相关论文` 见[CVPR2019](CVPR2019.md) :blush: :blush: :blush: 
 
+## 如何贡献（Be Free）
+看到相关无人驾驶最新论文，欢迎大伙儿提交到Issues上，当然也可以在对应Issues下进行讨论论文和补充相关材料～～   
+`Again,Be Free！`一切都是为了更好的学术！！！  
+#### 论文速递遵从以下模板：
 
-以下论文主要收录相关方向SOTA代码的论文，框架大致按照下图无人驾驶系统系统架构来整理,其中相同类别论文按照时间排序。  
+* Issue 标题为论文题目
+* 描述模板：
+> * [Paper Title](Paper link)
+> * 提交日期; 年份-月-日  
+> * 团队: XXXX  
+> * 作者: XXXX  
+> * 摘要: 中文摘要  
+
+
+
+------
+* 以下论文主要收录相关方向SOTA代码的论文，框架大致按照下图无人驾驶系统系统架构来整理,其中相同类别论文按照时间排序。  
 > 注：以下统计的时间为在Arxiv提交的时间 
 
 ![img](imgs/ARCHITECTURE%20OF%20SELF-DRIVING%20CARS%20.svg)

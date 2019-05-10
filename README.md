@@ -176,7 +176,7 @@ capability.
  作者：Yin Zhou, Oncel Tuzel    
  机构：苹果公司  
  日期：2017-11-17    
- 代码：[charlesq34/pointnet](https://github.com/charlesq34/pointnet) :star: 1846 
+ 代码：[charlesq34/pointnet](https://github.com/charlesq34/pointnet) :star: 1846   
  摘要：Accurate detection of objects in 3D point clouds is a central problem in many applications, such as autonomous 
  navigation, housekeeping robots, and augmented/virtual reality. To interface a highly sparse LiDAR point cloud with a 
  region proposal network (RPN), most existing efforts have focused on hand-crafted feature representations, for example, 
@@ -247,7 +247,7 @@ Cityscapes：#2，Real-time（`65.5 Fps`）;#8 (`Mean IoU 78.9%`)、CamVid：#2�
 作者：Changqian Yu, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, Nong Sang  
 机构：多谱信息处理技术国家级重点实验室、华中科技大学自动化学院、北大、旷视  
 日期: 2018-08-02   
-代码：[ycszen/TorchSeg](https://github.com/ycszen/TorchSeg)  :star:660
+代码：[ycszen/TorchSeg](https://github.com/ycszen/TorchSeg)  :star:660  
 摘要：Semantic segmentation requires both rich spatial information and sizeable receptive field. However, modern 
 approaches usually compromise spatial resolution to achieve real-time inference speed, which leads to poor performance. 
 In this paper, we address this dilemma with a novel Bilateral Segmentation Network (BiSeNet). We first design a Spatial 

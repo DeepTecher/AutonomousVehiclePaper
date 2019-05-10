@@ -77,9 +77,9 @@ paper we consider the problem of encoding a point cloud into a format appropriat
 * [PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud](https://arxiv.org/abs/1812.04244),
 :trophy: KITTI for 3D Object Detection (Cars) : #2,Cars-Easy(AP:84.32%);#1,Cars-Moderate(AP:75.42%);#1,Cars-Hard(AP:67.86%)  
 作者：Shaoshuai Shi, Xiaogang Wang, Hongsheng Li  
-机构：香港中文大学   
-日期：2018-12-11  
-代码：[sshaoshuai/PointRCNN](https://github.com/sshaoshuai/PointRCNN) :star:262
+机构：香港中文大学      
+日期：2018-12-11     
+代码：[sshaoshuai/PointRCNN](https://github.com/sshaoshuai/PointRCNN) :star:262   
 摘要：In this paper, we propose PointRCNN for 3D object detection from raw point cloud. The whole framework is composed 
 of two stages: stage-1 for the bottom-up 3D proposal generation and stage-2 for refining proposals in the canonical 
 coordinates to obtain the final detection results. Instead of generating proposals from RGB image or projecting point 
@@ -106,11 +106,11 @@ of damage in roads is an essential problem for multiple applications like mainte
  road images acquired using a smartphone camera and our average inference time for each image is 0.105 seconds on an NVIDIA 
  GeForce 1080Ti graphic card. The code and saved models for our approach can be found here : this [https URL](https://github.com/sshkhr/BigDataCup18_Submission) Submission  
  
-* [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/abs/1803.06199)
-作者：Martin Simon, Stefan Milz, Karl Amende, Horst-Michael Gross
-机构：法里奥、伊尔默瑙理工大学  
-日期：2018-09-24 (2018-03-16 v1)
-代码：[AI-liu/Complex-YOLO](https://github.com/AI-liu/Complex-YOLO) :star: 191
+* [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/abs/1803.06199)  
+作者：Martin Simon, Stefan Milz, Karl Amende, Horst-Michael Gross  
+机构：法里奥、伊尔默瑙理工大学    
+日期：2018-09-24 (2018-03-16 v1)  
+代码：[AI-liu/Complex-YOLO](https://github.com/AI-liu/Complex-YOLO) :star: 191  
 摘要：Lidar based 3D object detection is inevitable for autonomous driving, because it directly links to environmental 
 understanding and therefore builds the base for prediction and motion planning. The capacity of inferencing highly sparse 
 3D data in real-time is an ill-posed problem for lots of other application areas besides automated vehicles, e.g. augmented 
@@ -141,12 +141,11 @@ of objects in 3D space. Our proposed architecture is shown to produce state of t
 detection benchmark while running in real time with a low memory footprint, making it a suitable candidate for 
 deployment on autonomous vehicles. Code is at: this https URL
 
-* [Frustum PointNets for 3D Object Detection from RGB-D Data](https://arxiv.org/abs/1711.08488)
-:trophy: :+1:  SOTA（Object Localization & 3D Object Detection）:Cars、Cyclists、Pedestrian 
-作者：Charles R. Qi, Wei Liu, Chenxia Wu, Hao Su, Leonidas J. Guibas
-机构：斯坦福大学、Nuro公司、加州大学圣地亚哥分校   
-日期：2018-04-13（2017-11-22 v1）
-代码：[charlesq34/pointnet](https://github.com/charlesq34/pointnet) :star: 1846 
+* [Frustum PointNets for 3D Object Detection from RGB-D Data](https://arxiv.org/abs/1711.08488):trophy: :+1:  SOTA（Object Localization & 3D Object Detection）:Cars、Cyclists、Pedestrian   
+作者：Charles R. Qi, Wei Liu, Chenxia Wu, Hao Su, Leonidas J. Guibas   
+机构：斯坦福大学、Nuro公司、加州大学圣地亚哥分校     
+日期：2018-04-13（2017-11-22 v1）  
+代码：[charlesq34/pointnet](https://github.com/charlesq34/pointnet) :star: 1846   
 摘要：In this work, we study 3D object detection from RGB-D data in both indoor and outdoor scenes. While previous methods 
 focus on images or 3D voxels, often obscuring natural 3D patterns and invariances of 3D data, we directly operate on raw 
 point clouds by popping up RGB-D scans. However, a key challenge of this approach is how to efficiently localize objects 
@@ -173,10 +172,10 @@ capability.
  Finally, our experiments show that our model is very accurate, achieving state-of-the-art accuracy on the KITTI benchmark.
  
  * [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](https://arxiv.org/abs/1711.06396), :trophy: :+1: 
- SOTA（Object Localization & 3D Object Detection）:Cars、Cyclists、Pedestrian 
- 作者：Yin Zhou, Oncel Tuzel  
- 机构：苹果公司
- 日期：2017-11-17  
+ SOTA（Object Localization & 3D Object Detection）:Cars、Cyclists、Pedestrian  
+ 作者：Yin Zhou, Oncel Tuzel    
+ 机构：苹果公司  
+ 日期：2017-11-17    
  代码：[charlesq34/pointnet](https://github.com/charlesq34/pointnet) :star: 1846 
  摘要：Accurate detection of objects in 3D point clouds is a central problem in many applications, such as autonomous 
  navigation, housekeeping robots, and augmented/virtual reality. To interface a highly sparse LiDAR point cloud with a 
@@ -194,11 +193,11 @@ capability.
  
 #### 分割|Segmentation  
 * [LEDNet: A Lightweight Encoder-Decoder Network for Real-Time Semantic Segmentation](https://arxiv.org/abs/1905.02423)，
-:trophy: Semantic Segmentation: Real-time(71FPS)、Semantic Segmentation(Mean IoU 70.6%)，ICIP 2019  
-作者：Yu Wang, Quan Zhou, Jia Liu, Jian Xiong, Guangwei Gao, Xiaofu Wu, Longin Jan Latecki  
-机构：南京邮电大学、天普大学 
-日期：2019-05-07  
-代码：[xiaoyufenfei/LEDNet](https://github.com/xiaoyufenfei/LEDNet) :star:26 (暂未release)
+:trophy: Semantic Segmentation: Real-time(71FPS)、Semantic Segmentation(Mean IoU 70.6%)，ICIP 2019    
+作者：Yu Wang, Quan Zhou, Jia Liu, Jian Xiong, Guangwei Gao, Xiaofu Wu, Longin Jan Latecki    
+机构：南京邮电大学、天普大学   
+日期：2019-05-07    
+代码：[xiaoyufenfei/LEDNet](https://github.com/xiaoyufenfei/LEDNet) :star:26 (暂未release)  
 摘要：The extensive computational burden limits the usage of CNNs in mobile devices for dense estimation tasks. 
 In this paper, we present a lightweight network to address this problem,namely LEDNet, which employs an asymmetric 
 encoder-decoder architecture for the task of real-time semantic segmentation.More specifically, the encoder adopts a 
@@ -207,13 +206,12 @@ to greatly reduce computation cost while maintaining higher segmentation accurac
 pyramid network (APN) is employed in the decoder to further lighten the entire network complexity. Our model has 
 less than 1M parameters,and is able to run at over 71 FPS in a single GTX 1080Ti GPU. The comprehensive experiments 
 demonstrate that our approach achieves state-of-the-art results in terms of speed and accuracy trade-off on CityScapes dataset.
-* [In Defense of Pre-trained ImageNet Architectures for Real-time Semantic Segmentation of Road-driving Images](https://arxiv.org/abs/1903.08469) 
-:trophy: #2 for Real-Time Semantic Segmentation on Cityscapes: #9,Semantic Segmentation(`Mean IoU:75.5%`);#2,Real-time(`Mean IoU:75.5%`)
-;#3,Real-time(`Frame:39.9 fps`),CVPR2019  
+
+* [In Defense of Pre-trained ImageNet Architectures for Real-time Semantic Segmentation of Road-driving Images](https://arxiv.org/abs/1903.08469) :trophy: #2 for Real-Time Semantic Segmentation on Cityscapes: #9,Semantic Segmentation(`Mean IoU:75.5%`);#2,Real-time(`Mean IoU:75.5%`);#3,Real-time(`Frame:39.9 fps`),CVPR2019  
 作者：Marin Oršić, Ivan Krešo, Petra Bevandić, Siniša Šegvić  
 机构：萨格勒布大学 电气工程与计算学院  
-日期: 2019-04-12
-代码：[orsic/swiftnet](https://github.com/orsic/swiftnet) :star: 61
+日期: 2019-04-12   
+代码：[orsic/swiftnet](https://github.com/orsic/swiftnet) :star: 61   
 摘要：Recent success of semantic segmentation approaches on demanding road driving datasets has spurred interest in many 
 related application fields. Many of these applications involve real-time prediction on mobile platforms such as cars, 
 drones and various kinds of robots. Real-time setup is challenging due to extraordinary computational complexity involved. 
@@ -248,7 +246,7 @@ Our Cityscapes test submission entitled SwiftNetRN-18 delivers 75.5% MIoU and ac
 Cityscapes：#2，Real-time（`65.5 Fps`）;#8 (`Mean IoU 78.9%`)、CamVid：#2，Mean IoU 68.7%;ECCV 2018  
 作者：Changqian Yu, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, Nong Sang  
 机构：多谱信息处理技术国家级重点实验室、华中科技大学自动化学院、北大、旷视  
-日期: 
+日期: 2018-08-02   
 代码：[ycszen/TorchSeg](https://github.com/ycszen/TorchSeg)  :star:660
 摘要：Semantic segmentation requires both rich spatial information and sizeable receptive field. However, modern 
 approaches usually compromise spatial resolution to achieve real-time inference speed, which leads to poor performance. 
@@ -260,8 +258,7 @@ between the speed and segmentation performance on Cityscapes, CamVid, and COCO-S
 2048x1024 input, we achieve 68.4% Mean IOU on the Cityscapes test dataset with speed of 105 FPS on one NVIDIA Titan XP 
 card, which is significantly faster than the existing methods with comparable performance.
 
-* [RTSeg: Real-time Semantic Segmentation Comparative Study](https://arxiv.org/abs/1803.02758)
-Benchmarking Framework（Cityscapes dataset for urban scenes）      
+* [RTSeg: Real-time Semantic Segmentation Comparative Study](https://arxiv.org/abs/1803.02758) Benchmarking Framework（Cityscapes dataset for urban scenes）      
 作者：Mennatullah Siam, Mostafa Gamal, Moemen Abdel-Razek, Senthil Yogamani, Martin Jagersand  
 机构：阿尔伯塔大学、开罗大学    
 日期：2018-06-10 （2018-03-07 v1）  

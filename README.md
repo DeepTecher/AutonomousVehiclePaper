@@ -30,8 +30,8 @@
 #### 物体检测|Object Detection  
 * [Stereo R-CNN based 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/1902.09738),CVPR 2019  
 作者:Peiliang Li, Xiaozhi Chen, Shaojie Shen  
-机构：香港科技大学、大疆   
-日期：2019-04-10（2019-02-26 v1） 
+机构：香港科技大学、大疆     
+日期：2019-04-10（2019-02-26 v1）   
 代码：[HKUST-Aerial-Robotics/Stereo-RCNN](https://github.com/HKUST-Aerial-Robotics/Stereo-RCNN)  :star:241   
 摘要：We propose a 3D object detection method for autonomous driving by fully exploiting the sparse and dense, semantic 
 and geometry information in stereo imagery. Our method, called Stereo R-CNN, extends Faster R-CNN for stereo inputs to 

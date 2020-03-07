@@ -25,7 +25,7 @@
 
 ![img](imgs/ARCHITECTURE%20OF%20SELF-DRIVING%20CARS%20.svg)
 
-## 感知系统|Precision
+## 感知系统|Perception
 ### 其他|Other
 #### 物体检测|Object Detection  
 * [Stereo R-CNN based 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/1902.09738),CVPR 2019  
